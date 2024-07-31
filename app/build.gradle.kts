@@ -1,14 +1,14 @@
 plugins {
-    alias(libs.plugins.androidApplication)
-    alias(libs.plugins.jetbrainsKotlinAndroid)
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.jetbrains.kotlin.android)
 }
 
 android {
-    namespace = "com.bestteam.composeprac"
+    namespace = "com.example.composeprac"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.bestteam.composeprac"
+        applicationId = "com.example.composeprac"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
